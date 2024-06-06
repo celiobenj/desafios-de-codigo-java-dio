@@ -1,7 +1,9 @@
-# Descrição
+# Registro de Transações Bancárias
+
+## Descrição
 Você está desenvolvendo um programa simples em Java para manter um registro de transações bancárias. Cada transação é armazenada em uma lista.
 
-# Entrada
+## Entrada
 * O programa solicitará ao usuário que informe o saldo inicial da conta.
 * Em seguida, o programa solicitará a quantidade total de transações que o cliente deseja realizar.
 
@@ -10,12 +12,12 @@ Você está desenvolvendo um programa simples em Java para manter um registro de
     * O tipo de transação: Digite 'D' para depósito ou 'S' para saque.
     * O valor da transação.
 
-# Saída
+## Saída
 * Utilizando listas (ArrayList ou LinkedList), o programa armazenará cada transação, que incluirá um tipo (Depósito ou Saque) e um valor.
 * Ao final das transações, o programa exibirá o saldo final da conta e a lista de transações.
  
 
-# Exemplos
+## Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
 
