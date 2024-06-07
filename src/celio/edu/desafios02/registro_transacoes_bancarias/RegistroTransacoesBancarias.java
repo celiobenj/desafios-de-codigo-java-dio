@@ -39,7 +39,7 @@ public class RegistroTransacoesBancarias {
             }
         }
 
-        // TODO: Exibir o saldo final e a lista de transações conforme a tabela de
+        // // Exibir o saldo final e a lista de transações conforme a tabela de
         // Exemplos.
         System.out.println("Saldo: " + saldo);
         System.out.println("Transacoes:");
