@@ -1,4 +1,4 @@
-package celio.edu.desafios02.transacoes_bancarias;
+package celio.edu.desafios02.registro_transacoes_bancarias;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +39,14 @@ public class RegistroTransacoesBancarias {
             }
         }
 
-        // TODO: Exibir o saldo final e a lista de transações conforme a tabela de Exemplos.
+        // TODO: Exibir o saldo final e a lista de transações conforme a tabela de
+        // Exemplos.
+        System.out.println("Saldo: " + saldo);
+        System.out.println("Transacoes:");
+        int aux = 1;
+        for (String t : transacoes) {
+            System.out.println(aux++ +". "+t);
+        }
 
         // Fechar o scanner para evitar vazamentos de recursos
         scanner.close();
